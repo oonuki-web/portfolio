@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/a.css">
+</head>
+
+<body>
+    <div id="table">
+        <div id="contents">
+            <!-- コンテンツここから -->
+            <br>
+            <h2>BOX・流し点数早見表</h2>
+            <br>
+            <h3>早見表の味方</h3>
+            <p>見方としては3連複軸2頭流しの点数は相手馬が6頭なら6点。</p>
+            <p>3連単5頭ボックスの場合は60通りなので60点。</p>
+            <p>3連複6頭ボックスの場合は20点です。</p>
+            <br>
+            <table class="a1">
+                <colgroup>
+                    <col width="72" span="11">
+                </colgroup>
+                <tbody>
+                    <tr height="18" class="c" align="center">
+                        <td rowspan="3" height="90" width="72">頭数</td>
+                        <td colspan="4" width="288">BOX</td>
+                        <td colspan="6" width="432">流し</td>
+                    </tr>
+                    <tr height="54" class="c" align="center">
+                        <td rowspan="2" height="72" width="72">枠連<br>
+                            馬連<br>
+                            ワイド</td>
+                        <td rowspan="2">馬単</td>
+                        <td rowspan="2">3連複</td>
+                        <td rowspan="2">3連単</td>
+                        <td rowspan="2" width="72">枠連<br>
+                            馬連<br>
+                            ワイド</td>
+                        <td rowspan="2" width="72">馬単<br>
+                            （マルチ）</td>
+                        <td colspan="2">3連複</td>
+                        <td colspan="2">3連単（マルチ）</td>
+                    </tr>
+                    <tr height="18" class="c" align="center">
+                        <td height="18">軸1頭</td>
+                        <td>軸2頭</td>
+                        <td>軸1頭</td>
+                        <td>軸2頭</td>
+                    </tr>
+                    <tr height="18">
+                        <td height="18">　１頭</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>1</td>
+                        <td>1(2)</td>
+                        <td>-</td>
+                        <td>1</td>
+                        <td>-</td>
+                        <td>1(6)</td>
+                    </tr>
+                    <tr height="18">
+                        <td height="18">　２頭</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>2</td>
+                        <td>2(4)</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2(6)</td>
+                        <td>2(12)</td>
+                    </tr>
+                    <tr height="18">
+                        <td height="18">　３頭</td>
+                        <td>3</td>
+                        <td>6</td>
+                        <td>1</td>
+                        <td>6</td>
+                        <td>3</td>
+                        <td>3(6)</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>6(18)</td>
+                        <td>3(18)</td>
+                    </tr>
+                    <tr height="18">
+                        <td height="18">　４頭</td>
+                        <td>6</td>
+                        <td>12</td>
+                        <td>4</td>
+                        <td>24</td>
+                        <td>4</td>
+                        <td>4(8)</td>
+                        <td>6</td>
+                        <td>4</td>
+                        <td>12(36)</td>
+                        <td>4(24)</td>
+                    </tr>
+                    <tr height="18">
+                        <td height="18">　５頭</td>
+                        <td>10</td>
+                        <td>20</td>
+                        <td>10</td>
+                        <td>60</td>
+                        <td>5</td>
+                        <td>5(10)</td>
+                        <td>10</td>
+                        <td>5</td>
+                        <td>20(60)</td>
+                        <td>5(30)</td>
+                    </tr>
+                    <tr height="18">
+                        <td height="18">　６頭</td>
+                        <td>15</td>
+                        <td>30</td>
+                        <td>20</td>
+                        <td>120</td>
+                        <td>6</td>
+                        <td>6(12)</td>
+                        <td>15</td>
+                        <td>6</td>
+                        <td>30(90)</td>
+                        <td>6(36</td>
+                    </tr>
+                    <tr height="18">
+                        <td height="18">　７頭</td>
+                        <td>21</td>
+                        <td>42</td>
+                        <td>35</td>
+                        <td>210</td>
+                        <td>7</td>
+                        <td>7(14)</td>
+                        <td>21</td>
+                        <td>7</td>
+                        <td>42(126)</td>
+                        <td>7(42)</td>
+                    </tr>
+                    <tr height="18">
+                        <td height="18">　８頭</td>
+                        <td>28</td>
+                        <td>56</td>
+                        <td>56</td>
+                        <td>336</td>
+                        <td>8</td>
+                        <td>8(16)</td>
+                        <td>28</td>
+                        <td>8</td>
+                        <td>56(168)</td>
+                        <td>8(48)</td>
+                    </tr>
+                    <tr height="18">
+                        <td height="18">　９頭</td>
+                        <td>36</td>
+                        <td>72</td>
+                        <td>84</td>
+                        <td>504</td>
+                        <td>9</td>
+                        <td>9(18)</td>
+                        <td>36</td>
+                        <td>9</td>
+                        <td>72(216)</td>
+                        <td>9(54)</td>
+                    </tr>
+                    <tr height="18">
+                        <td height="18">１０頭</td>
+                        <td>45</td>
+                        <td>90</td>
+                        <td>120</td>
+                        <td>720</td>
+                        <td>10</td>
+                        <td>10(20)</td>
+                        <td>45</td>
+                        <td>10</td>
+                        <td>90(270)</td>
+                        <td>10(60)</td>
+                    </tr>
+                    <tr height="18">
+                        <td height="18">１１頭</td>
+                        <td>55</td>
+                        <td>110</td>
+                        <td>165</td>
+                        <td>990</td>
+                        <td>11</td>
+                        <td>11(22)</td>
+                        <td>55</td>
+                        <td>11</td>
+                        <td>110(330)</td>
+                        <td>11(66)</td>
+                    </tr>
+                    <tr height="18">
+                        <td height="18">１２頭</td>
+                        <td>66</td>
+                        <td>132</td>
+                        <td>220</td>
+                        <td>1320</td>
+                        <td>12</td>
+                        <td>12(24)</td>
+                        <td>66</td>
+                        <td>12</td>
+                        <td>132(396)</td>
+                        <td>12(72)</td>
+                    </tr>
+                    <tr height="18">
+                        <td height="18">１３頭</td>
+                        <td>78</td>
+                        <td>156</td>
+                        <td>286</td>
+                        <td>1716</td>
+                        <td>13</td>
+                        <td>13(26)</td>
+                        <td>78</td>
+                        <td>13</td>
+                        <td>156(468)</td>
+                        <td>13(78)</td>
+                    </tr>
+                    <tr height="18">
+                        <td height="18">１４頭</td>
+                        <td>91</td>
+                        <td>182</td>
+                        <td>364</td>
+                        <td>2184</td>
+                        <td>14</td>
+                        <td>14(28)</td>
+                        <td>91</td>
+                        <td>14</td>
+                        <td>182(546)</td>
+                        <td>14(84)</td>
+                    </tr>
+                    <tr height="18">
+                        <td height="18">１５頭</td>
+                        <td>105</td>
+                        <td>210</td>
+                        <td>455</td>
+                        <td>2730</td>
+                        <td>15</td>
+                        <td>15(30)</td>
+                        <td>105</td>
+                        <td>15</td>
+                        <td>210(630)</td>
+                        <td>15(90)</td>
+                    </tr>
+                    <tr height="18">
+                        <td height="18">１６頭</td>
+                        <td>120</td>
+                        <td>240</td>
+                        <td>560</td>
+                        <td>3360</td>
+                        <td>16</td>
+                        <td>16(32)</td>
+                        <td>120</td>
+                        <td>16</td>
+                        <td>240(720)</td>
+                        <td>16(96)</td>
+                    </tr>
+                    <tr height="18">
+                        <td height="18">１７頭</td>
+                        <td>136</td>
+                        <td>272</td>
+                        <td>680</td>
+                        <td>4080</td>
+                        <td>17</td>
+                        <td>17(34)</td>
+                        <td>136</td>
+                        <td>-</td>
+                        <td>272(816)</td>
+                        <td>-</td>
+                    </tr>
+                    <tr height="19">
+                        <td height="19">１８頭</td>
+                        <td>153</td>
+                        <td>306</td>
+                        <td>816</td>
+                        <td>4896</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                </tbody>
+            </table><br>
+
+            <p>
+                ※頭数は「BOX」では選ぶ馬の数、流しでは相手の馬の数になります。<br>
+                ※連単流しの（）内はマルチをマークした時の組み合わせです。<br>
+                ※枠連BOXのゾロ目は考慮にいれてません。<br><br>
+                <a href="index.html">HOMEに戻る</a><br><br>
+            </p>
+        </div>
+    </div>
+    
+    
+</body>
+
+</html>
